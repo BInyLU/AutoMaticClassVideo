@@ -1,0 +1,13 @@
+{
+	"name": "classdemo_biny",
+	"version": "1.0.0",
+	"manifest_version": 2,
+	"description": "classdemo_biny",
+	"browser_action": {
+		"default_icon": "biny.png"
+	},
+	"content_scripts": [{
+		"matches": ["http://219.159.82.30:9004/*/*/*/*"],
+		"js": ["jquery.min.js", "index.js"]
+	}]
+}
